@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qué es la Programación Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Programación Web</h1>
+        <nav>
+            <ul class="menu-fijo">
+                <li><a href="#informacion">Información</a></li>
+                <li><a href="#imagenes">Imágenes</a></li>
+                <li><a href="#tabla">Tabla</a></li>
+                <li><a href="#formulario">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="informacion">
+            <h2>¿Qué es la programación web?</h2>
+            <p>La programación web consiste en el uso de distintos lenguajes de programación y tecnologías para construir páginas web. El objetivo principal es garantizar que las páginas web funcionen correctamente, ofreciendo al usuario una experiencia fluida.
+
+Gracias a la programación web, los negocios pueden interactuar con sus clientes, ofrecer servicios online, gestionar contenido, realizar ventas y mucho más. En la actualidad, es una habilidad esencial para cualquier negocio que busque tener presencia en internet.</p>
+
+        </section>
+        <!-- Sección de imágenes -->
+        <section id="imagenes">
+            <h2>Imágenes</h2>
+
+            <h3>Imagen decorativa</h3>
+            <img 
+                src="https://picsum.photos/400/200?random=1" 
+                alt="" 
+                class="decorativa">
+
+            <h3>Imagen informativa</h3>
+            <figure>
+                <img 
+                    src="https://tse2.mm.bing.net/th/id/OIP.ftOCZpEYB1eOn8hyF-5fCQHaDh?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" 
+                    alt="Diagrama de árbol de la estructura básica de un archivo HTML. Dentro de la etiqueta html se encuentran las etiquetas jed y body. Heas está destinada a la información técnica para el navegador, mientras body incluye el contenido que aparecerá en la página web">
+                <figcaption>Diagrama sobre la estructura básica de un archivo html.</figcaption>
+            </figure>
+        </section>
+
+        <!-- Sección de tabla -->
+        <section id="tabla">
+            <h2>Tabla de datos</h2>
+            <table summary="Tecnología de desarrollo en columnas, características en filas">
+                <caption>Tecnologías de desarrollo web más relevantes</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Lenguaje</th>
+                        <th scope="col">Año de creación</th>
+                        <th scope="col">Uso principal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>1993</td>
+                        <td>Estructura de páginas web</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>1996</td>
+                        <td>Estilos y diseño</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>1995</td>
+                        <td>Interactividad</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Sección de formulario -->
+        <section id="formulario">
+            <h2>Formulario de contacto</h2>
+            <p>Si te interesa el tema, no dudes en ponerte en contacto con nosotros mediante el siguiente formulario.</p>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mi Página Web</p>
+        <a href="#">Volver al incio</a>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,161 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main, h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: #222;
+    background-color: #fff;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Encabezado */
+
+h1 {
+    font-size: 1.8em;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #323436;
+    
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: #dae1e8;
+
+}
+
+nav a:hover {
+    color: #3085D9;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+li{
+    padding: 10px;
+}
+
+/* Secciones */
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.1em;
+    margin: 15px 0 8px;
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.decorativa {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+figure {
+    margin-top: 10px;
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 0.95em;
+}
+
+input, textarea {
+    padding: 6px;
+    border: 3px solid #479CD1;
+    border-radius: 3px;
+    font-family: inherit;
+    font-size: 1em;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #0055aa;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+button:hover {
+    background-color: #003d7a;
+}
+
+p {
+    text-align:justify;
+}
+/* Pie de página */
+footer {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #666;
+    text-align: center;
+}
